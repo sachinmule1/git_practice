@@ -1,0 +1,23 @@
+
+
+div{
+    width: 70vw;
+    margin-left: 5vw;
+    text-align: justify;
+}
+
+
+@media only screen and (max-width : 750px) {
+body{
+    display: flex;
+    justify-content: center;
+}
+    h1{
+        text-align: center;
+    }
+    div{
+        width: 80vw;
+        margin: 0;
+        text-align: justify;
+    }
+}
